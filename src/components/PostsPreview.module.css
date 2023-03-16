@@ -1,0 +1,6 @@
+.postsWrapper {
+    --postsWrapperColumns: 3;
+    display: grid;
+    grid-template-columns: repeat(var(--postsWrapperColumns), calc(100%/var(--postsWrapperColumns)));
+    grid-template-rows: auto;
+}
